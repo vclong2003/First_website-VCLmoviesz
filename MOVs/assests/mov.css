@@ -1,0 +1,206 @@
+* { box-sizing: border-box; }
+
+#background {
+    width: 100%;
+    filter: blur(20px);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bgImg {
+    width: 100%;
+}
+
+#movContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 28%;
+    height: fit-content;
+}
+
+#movCover {
+    width: 100%;
+    position: relative;
+    border-radius: 2%;
+}
+
+#buttonsContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#playButton {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 30%;
+    border-radius: 50%;
+    opacity: 65%;
+    background-color: rgba(240, 248, 255, 0.116);
+}
+#playButton:hover {
+    background-color: rgba(240, 248, 255, 0.342);
+    opacity: 100%;
+}
+
+#infoButton {
+    background-color: rgba(240, 248, 255, 0.295);
+    position: absolute;
+    width: 15%;
+    padding: 2%;
+    border-radius: 10%;
+    margin-bottom: 129%;
+    margin-right: 80%;
+    cursor: pointer;
+}
+#infoButton:hover {
+    background-color: rgba(240, 248, 255, 0.582);
+}
+#infomationPopup {
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: max-content;
+    height: max-content;
+    padding: 10%;
+    z-index: 1;
+    right: 130%;
+    top: 0%;
+}
+
+#descriptionButton {
+    background-color: rgba(240, 248, 255, 0.295);
+    position: absolute;
+    width: 15%;
+    padding: 2%;
+    border-radius: 10%;
+    margin-top: 129%;
+    margin-right: 80%;
+    cursor: pointer;
+}
+#descriptionButton:hover {
+    background-color: rgba(240, 248, 255, 0.582);
+}
+#descriptionPopup {
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 500%;
+    height: max-content;
+    padding: 10%;
+    z-index: 1;
+    right: 130%;
+    bottom: 0%;
+}
+
+#directorButton {
+    background-color: rgba(240, 248, 255, 0.295);
+    position: absolute;
+    width: 15%;
+    padding: 2%;
+    border-radius: 10%;
+    margin-bottom: 129%;
+    margin-left: 80%;
+    cursor: pointer;
+}
+#directorButton:hover {
+    background-color: rgba(240, 248, 255, 0.582);
+}
+#directorPopup {
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 200%;
+    padding: 10%;
+    z-index: 1;
+    left: 130%;
+    top: 0%;
+    display: none;
+    text-align: center;
+}
+
+#downloadButton {
+    background-color: rgba(240, 248, 255, 0.295);
+    position: absolute;
+    width: 15%;
+    padding: 2%;
+    border-radius: 10%;
+    margin-top: 129%;
+    margin-left: 80%;
+    cursor: pointer;
+}
+#downloadButton:hover {
+    background-color: rgba(240, 248, 255, 0.582);
+}
+#downloadPopup {
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: max-content;
+    height: max-content;
+    padding: 10%;
+    z-index: 1;
+    left: 130%;
+    top: 0%;
+    text-align: center;
+    font-size: 1vw;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+#movShowing {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.644);
+    z-index: 2;
+}
+#player {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: none;
+    outline: none;
+    width: 80%;
+    height: 75%;
+    box-shadow: 0px 0px 25px 20px #2be6ff;
+}
+#closeButton {
+    cursor: pointer;
+    position: absolute;
+    width: 2%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 1.5%;
+    background-color:   #2be6ffd5;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px 8px #2be6ff;
+}
