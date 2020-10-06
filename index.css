@@ -187,6 +187,12 @@
         width: 31%;
         padding: 1.2%;
     }
+    .movItem:hover {
+        background-color: rgba(82, 82, 82, 0);
+    }
+    .navItem:hover {
+        background-color:rgba(78, 78, 78, 0);
+    }
     .movName {
         font-size: 3.5vw;
         color: orange;
