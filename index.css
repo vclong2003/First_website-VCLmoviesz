@@ -53,16 +53,12 @@
     margin-left: 45%;
 }
 #mobileSearchBoxContainer {
-    width: 100%;
-    padding: 1.5%;
+   display: none;
 }
 #mobileSearchBox {
-    width: 100%;
-    font-size: 3vw;
-    padding: 1.5%;
-    outline: none;
-    border: none;
+    display: none;
 }
+
 
 #poster {
     width: 100%;
@@ -129,7 +125,7 @@
     border-radius: 1.2%;
 }
 #rightTitle {
-    margin-top: 2%;
+    margin-top: 3%;
     font-family: 'Montserrat', sans-serif;
     color: rgb(253, 169, 11);
     font-size: 1.5vw;
@@ -191,10 +187,26 @@
         width: 8%;
         display: none;
     }
-    #searchButton {
-        display: none;
+    #mobileSearchBoxContainer {
+        width: 100%;
+        padding: 1.5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: black;
+        border-top: solid rgb(253, 169, 11) 0.5vw;
+        border-bottom: solid rgb(253, 169, 11) 0.5vw;
     }
-
+    #mobileSearchBox {
+        display: block;
+        width: 98.5%;
+        font-size: 3vw;
+        padding: 1.5%;
+        outline: none;
+        border: none;
+    }
     #ad {
         display: none;
     }

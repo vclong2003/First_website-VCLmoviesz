@@ -16,6 +16,24 @@ function search() {
     }
 }
 
+function searchOnMobile() {
+    let input, searchValue, main, movs, movLinks, movLinkTxtValue;
+    input = document.getElementById("mobileSearchBox");
+    searchValue = input.value.toUpperCase();
+    main = document.getElementById("main");
+    movs = main.getElementsByTagName("div");
+    for (i = 0; i < movs.length; i ++) {
+        movLinks = movs[i].getElementsByTagName("a")[1];
+        movLinkTxtValue = movLinks.textContent || movLinks.innerText;
+        if (movLinkTxtValue.toUpperCase().indexOf(searchValue) > -1) {
+            movs[i].style.display = "";
+        }
+        else {
+            movs[i].style.display = "none";
+        }
+    }
+}
+
 let movies = [
     {title : "Artemis Fowl (2020)", posterLink : "cover/2020/artemis fowl.jpg", siteLink : ""},
     {title : "Peninsula (2020)", posterLink : "cover/2020/peninsula.jpg", siteLink : ""},
