@@ -20,10 +20,6 @@
     width: 1%;
 }
 
-#mobileSearchButton {
-    display: none;
-}
-
 .navItem {
     padding: 1%;
     display: flex;
@@ -56,17 +52,16 @@
     outline: none;
     margin-left: 45%;
 }
-
-#searchButton {
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
-    border: none;
-    outline: none;
-    background-color: rgb(255, 255, 255);
+#mobileSearchBoxContainer {
+    width: 100%;
+    padding: 1.5%;
 }
-
-#searchButton:hover {
-    background-color: orange;
+#mobileSearchBox {
+    width: 100%;
+    font-size: 3vw;
+    padding: 1.5%;
+    outline: none;
+    border: none;
 }
 
 #poster {
@@ -199,9 +194,7 @@
     #searchButton {
         display: none;
     }
-    #mobileSearchButton {
-        display: inline;
-    }
+
     #ad {
         display: none;
     }
