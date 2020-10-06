@@ -1,1 +1,1 @@
-<VCL>Hello World !</VCL>
+I am VCL !

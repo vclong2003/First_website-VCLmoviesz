@@ -196,8 +196,8 @@
         padding-left: 1%;
         padding-right: 1%;
         background-color: black;
-        border-top: solid rgb(253, 169, 11) 0.5vw;
-        border-bottom: solid rgb(253, 169, 11) 0.5vw;
+        border-top: solid rgb(253, 169, 11) 0.3vw;
+        border-bottom: solid rgb(253, 169, 11) 0.3vw;
     }
     #mobileSearchBox {
         display: block;
