@@ -18,12 +18,6 @@ function search() {
 
 let movies = [
     {title : "Artemis Fowl (2020)", posterLink : "cover/2020/artemis fowl.jpg", siteLink : ""},
-    {title : "Enola Holmes (2020)", posterLink : "cover/2020/enola holmes.jpg", siteLink : ""},
-    {title : "Mortal (2020)", posterLink : "cover/2020/mortal.webp", siteLink : ""},
-    {title : "Mulan (2020)", posterLink : "cover/2020/mulan.jpg", siteLink : ""},
-    {title : "Secret Society of Second Born Royals (2020)", posterLink : "cover/2020/second bond royals.jpg", siteLink : ""},
-    {title : "Sonic the Hedgehog (2020)", posterLink : "cover/2020/sonic hededge.jpg", siteLink : ""},
-    {title : "The Invisible Man (2020)", posterLink : "cover/2020/invisible man.jpg", siteLink : ""},
     {title : "Peninsula (2020)", posterLink : "cover/2020/peninsula.jpg", siteLink : ""},
     {title : "1917 (2019)", posterLink : "cover/2019/1917.jpg", siteLink: "MOVs/2019/1917.html"},
     {title : "Alita Battle Angel (2019)", posterLink : "cover/2019/alita battle angel.jpg", siteLink: "MOVs/2019/alita_battle_angel.html"},
