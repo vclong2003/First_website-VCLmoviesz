@@ -15,7 +15,6 @@ function search() {
         }
     }
 }
-
 function searchOnMobile() {
     let input, searchValue, main, movs, movLinks, movLinkTxtValue;
     input = document.getElementById("mobileSearchBox");
@@ -35,6 +34,8 @@ function searchOnMobile() {
 }
 
 let movies = [
+    {title : "Project Power (2020)", posterLink : "cover/2020/project power.jpg", siteLink : ""},
+    {title : "Dolittle (2020)", posterLink : "cover/2020/dolittle.jpg", siteLink : ""},
     {title : "Artemis Fowl (2020)", posterLink : "cover/2020/artemis fowl.jpg", siteLink : ""},
     {title : "Peninsula (2020)", posterLink : "cover/2020/peninsula.jpg", siteLink : ""},
     {title : "1917 (2019)", posterLink : "cover/2019/1917.jpg", siteLink: "MOVs/2019/1917.html"},

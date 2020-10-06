@@ -15,6 +15,23 @@ function search() {
         }
     }
 }
+function searchOnMobile() {
+    let input, searchValue, main, movs, movLinks, movLinkTxtValue;
+    input = document.getElementById("mobileSearchBox");
+    searchValue = input.value.toUpperCase();
+    main = document.getElementById("main");
+    movs = main.getElementsByTagName("div");
+    for (i = 0; i < movs.length; i ++) {
+        movLinks = movs[i].getElementsByTagName("a")[1];
+        movLinkTxtValue = movLinks.textContent || movLinks.innerText;
+        if (movLinkTxtValue.toUpperCase().indexOf(searchValue) > -1) {
+            movs[i].style.display = "";
+        }
+        else {
+            movs[i].style.display = "none";
+        }
+    }
+}
 
 let movies = [
     {title : "Radioactive (2019)", posterLink : "../cover/2019/radioactive.jpg", siteLink: "../MOVs/2019/radioactive.html"},
