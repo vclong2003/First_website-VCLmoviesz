@@ -41,6 +41,7 @@
     width: 10%;
     display: flex;
     align-items: center;
+    padding-top: 0.12%;
 }
 
 #searchBox {
@@ -180,6 +181,7 @@
         padding: 2%;
     }
     #logo {
+        padding-top: 0.6%;
         width: 20%;
     }
     #searchBox {
