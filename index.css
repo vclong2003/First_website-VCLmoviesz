@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * { box-sizing: border-box; }
 #body {
     padding: 0; 
@@ -122,8 +123,43 @@
 
 #right {
     float: left;
-    width: 18%;
+    width: 17%;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 32, 32);
+    margin: 0.4%;
+    border-radius: 1.2%;
+}
+#rightTitle {
+    margin-top: 2%;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(253, 169, 11);
+    font-size: 1.5vw;
+}
+.trailers {
+    width: 92%;
+    background-color: rgb(32, 32, 32);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 4%;
+    padding-top: 2%;
+    border-top: solid rgb(253, 169, 11) 0.1vw;
+}
+#trailer {
+    width: 60%;
+    height: auto;
+}
+#trailerInfo {
+    width: 40%;
+    color:  rgb(255, 187, 61);
+    font-size: 0.7vw;
+    padding: 2%;
+    font-family: 'Roboto', sans-serif;
 }
 
 #mobileAd {
