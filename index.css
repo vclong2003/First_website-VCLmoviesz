@@ -153,6 +153,23 @@
     font-family: 'Roboto', sans-serif;
 }
 
+#contact {
+    width: 50%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#contactText {
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 2%;
+}
+
 #mobileAd {
     display: none;
 }
@@ -218,5 +235,13 @@
     }
     #right {
         display: none;
+    }
+    #contact {
+        width: 95%;
+        margin-top: 20%;
+    }
+    #contactText {
+        font-size: 4vw;
+        padding: 1%;
     }
 }   
