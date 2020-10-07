@@ -34,9 +34,9 @@ function searchOnMobile() {
 }
 
 let movies = [
-    {title : "Project Power (2020)", posterLink : "cover/2020/project power.jpg", siteLink : "../MOVs/2020/project_power.html"},
-    {title : "Dolittle (2020)", posterLink : "cover/2020/dolittle.jpg", siteLink : "../MOVs/2020/dolittle.html"},
-    {title : "Artemis Fowl (2020)", posterLink : "cover/2020/artemis fowl.jpg", siteLink : "../MOVs/2020/artemis_fowl.html"},
+    {title : "Project Power (2020)", posterLink : "../cover/2020/project power.jpg", siteLink : "../MOVs/2020/project_power.html"},
+    {title : "Dolittle (2020)", posterLink : "../cover/2020/dolittle.jpg", siteLink : "../MOVs/2020/dolittle.html"},
+    {title : "Artemis Fowl (2020)", posterLink : "../cover/2020/artemis fowl.jpg", siteLink : "../MOVs/2020/artemis_fowl.html"},
     {title : "Radioactive (2019)", posterLink : "../cover/2019/radioactive.jpg", siteLink: "../MOVs/2019/radioactive.html"},
 
 ]   
