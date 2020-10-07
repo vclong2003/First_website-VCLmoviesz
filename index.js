@@ -34,10 +34,10 @@ function searchOnMobile() {
 }
 
 let movies = [
-    {title : "Project Power (2020)", posterLink : "cover/2020/project power.jpg", siteLink : ""},
-    {title : "Dolittle (2020)", posterLink : "cover/2020/dolittle.jpg", siteLink : ""},
-    {title : "Artemis Fowl (2020)", posterLink : "cover/2020/artemis fowl.jpg", siteLink : ""},
-    {title : "Peninsula (2020)", posterLink : "cover/2020/peninsula.jpg", siteLink : ""},
+    {title : "Project Power (2020)", posterLink : "cover/2020/project power.jpg", siteLink : "MOVs/2020/project_power.html"},
+    {title : "Dolittle (2020)", posterLink : "cover/2020/dolittle.jpg", siteLink : "MOVs/2020/dolittle.html"},
+    {title : "Artemis Fowl (2020)", posterLink : "cover/2020/artemis fowl.jpg", siteLink : "MOVs/2020/artemis_fowl.html"},
+    {title : "Peninsula (2020)", posterLink : "cover/2020/peninsula.jpg", siteLink : "MOVs/2020/peninsula.html"},
     {title : "1917 (2019)", posterLink : "cover/2019/1917.jpg", siteLink: "MOVs/2019/1917.html"},
     {title : "Alita Battle Angel (2019)", posterLink : "cover/2019/alita battle angel.jpg", siteLink: "MOVs/2019/alita_battle_angel.html"},
     {title : "Anna (2019)", posterLink : "cover/2019/anna.jpg", siteLink: "MOVs/2019/anna.html"},
