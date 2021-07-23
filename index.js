@@ -49,7 +49,6 @@ let movies = [
     {title : "Glass (2019)", posterLink : "cover/2019/glass.jpg", siteLink: "MOVs/2019/glass.html"},
     {title : "Ip Man 4 (2019)", posterLink : "cover/2019/ip man 4.jpg", siteLink: "MOVs/2019/ip_man_4.html"},
     {title : "Pokemon Detective Pikachu (2019)", posterLink : "cover/2019/detective pikachu.jpg", siteLink: "MOVs/2019/detective_pikachu.html"},
-    {title : "Radioactive (2019)", posterLink : "cover/2019/radioactive.jpg", siteLink: "MOVs/2019/radioactive.html"},
     {title : "Shazam (2019)", posterLink : "cover/2019/shazam.jpg", siteLink: "MOVs/2019/shazam.html"},
     {title : "Spiderman Far From Home (2019)", posterLink : "cover/2019/far from home.jpg", siteLink: "MOVs/2019/far_from_home.html"},
     {title : "Us (2019)", posterLink : "cover/2019/us.jpg", siteLink: "MOVs/2019/us.html"},
