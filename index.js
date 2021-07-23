@@ -51,7 +51,6 @@ let movies = [
     {title : "Pokemon Detective Pikachu (2019)", posterLink : "cover/2019/detective pikachu.jpg", siteLink: "MOVs/2019/detective_pikachu.html"},
     {title : "Shazam (2019)", posterLink : "cover/2019/shazam.jpg", siteLink: "MOVs/2019/shazam.html"},
     {title : "Spiderman Far From Home (2019)", posterLink : "cover/2019/far from home.jpg", siteLink: "MOVs/2019/far_from_home.html"},
-    {title : "Us (2019)", posterLink : "cover/2019/us.jpg", siteLink: "MOVs/2019/us.html"},
     {title : "Aquaman (2018)", posterLink : "cover/2018/aquaman .jpg", siteLink: "MOVs/2018/aquaman.html"},
     {title : "A Quiet Place (2018)", posterLink : "cover/2018/a quiet place.jpg", siteLink: "MOVs/2018/a_quiet_place.html"},
     {title : "Bumblebee (2018)", posterLink : "cover/2018/bumblebee.jpg", siteLink: "MOVs/2018/bumblebee.html"},
